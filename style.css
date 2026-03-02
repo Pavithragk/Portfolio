@@ -1162,43 +1162,18 @@ section{
   }
 
 }
-/* Make website responsive for mobile */
-@media (max-width: 768px) {
+/* ===== MOBILE NAVBAR FIX ===== */
+@media screen and (max-width: 768px) {
 
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+  }
 
-    nav ul {
-        flex-direction: column;
-        padding: 0;
-    }
+  nav {
+      height: auto;
+      padding: 15px 0;
+  }
 
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .hero h1 {
-        font-size: 28px;
-    }
-
-    .hero h2 {
-        font-size: 22px;
-    }
-
-    .hero p {
-        font-size: 14px;
-    }
-
-    .hero img {
-        width: 150px;
-        margin-top: 20px;
-    }
 }
