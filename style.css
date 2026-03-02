@@ -1162,3 +1162,18 @@ section{
   }
 
 }
+/* ===== MOBILE NAVBAR FIX ===== */
+@media screen and (max-width: 768px) {
+
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+  }
+
+  nav {
+      height: auto;
+      padding: 15px 0;
+  }
+
+}
